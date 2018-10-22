@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\dev\\repo\\mobile\\entrega\\A8\\MapsSample\\android\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Michel Tank\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\59e99e7afc8b7c0bac98efc71ef09a2c\\res\\values-v18\\values-v18.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "48",
+                        "endOffsets": "99"
+                    }
+                }
+            ]
+        }
+    ]
+}

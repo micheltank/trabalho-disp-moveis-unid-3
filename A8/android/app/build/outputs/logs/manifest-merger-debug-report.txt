@@ -1,0 +1,222 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-maps] C:\dev\repo\mobile\entrega\A8\MapsSample\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [com.facebook.react:react-native:0.57.3] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\react-native-0.57.3.aar\2b8ef629885fc8c327b0928ee2b8a811\AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\59e99e7afc8b7c0bac98efc71ef09a2c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:16:1-25:12
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\2aa05c63a1e83ba2cbb67d883c12ce39\AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3c15aa70cbf23c8be45d53e5d0553893\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ec54e62299ac6b3a135821bb553b0a7f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\761215f872469868ddd4e3635bc86026\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\79dc762db551f6df6fa4b28c0fdee523\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\070c1b20e7991d10254b190fbae0f7d0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4a195da965690c9f1a216f4a9f9a7b19\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\44dbc55cd9105e99f4e5ec07bd2c7775\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\5a7af9765962e2cea9eb838b3191703c\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\7c0719a175aff6fade73b8ed327ad5ed\AndroidManifest.xml:17:1-27:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\3fd8047a667ae91a60b10eed8a65d85b\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\deff7e27d1b6281528349de2a620d274\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\1cf3b97174218cdf62c93d676e1e5e4e\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\de3f2ace2805d3ec204b5cf3c8105db8\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\fd9dd6b5c6b44589df3365797be8255d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\887d4282e76b23498c29efd01f9f7a47\AndroidManifest.xml:2:1-13:12
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\47ec95b1097d761199f52a973b82b571\AndroidManifest.xml:1:1-3:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1e7950be48dde02c5379f13bd38d2e75\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c29802de241ca5a0bdf053a3fff884fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b31a15974acd16fa8f1288299567602c\AndroidManifest.xml:2:1-9:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\96831288a1839d82da6216f904adee54\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2fe3fc56caea55c7ded557ffb64718b\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+	package
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:2:5-29
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] C:\dev\repo\mobile\entrega\A8\MapsSample\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] C:\dev\repo\mobile\entrega\A8\MapsSample\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:9:5-67
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:4:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:5:5-77
+MERGED from [com.facebook.react:react-native:0.57.3] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\react-native-0.57.3.aar\2b8ef629885fc8c327b0928ee2b8a811\AndroidManifest.xml:11:5-78
+MERGED from [com.facebook.react:react-native:0.57.3] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\react-native-0.57.3.aar\2b8ef629885fc8c327b0928ee2b8a811\AndroidManifest.xml:11:5-78
+	android:name
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:5:22-75
+application
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:7:5-24:19
+MERGED from [com.facebook.react:react-native:0.57.3] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\react-native-0.57.3.aar\2b8ef629885fc8c327b0928ee2b8a811\AndroidManifest.xml:13:5-20
+MERGED from [com.facebook.react:react-native:0.57.3] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\react-native-0.57.3.aar\2b8ef629885fc8c327b0928ee2b8a811\AndroidManifest.xml:13:5-20
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\2aa05c63a1e83ba2cbb67d883c12ce39\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\2aa05c63a1e83ba2cbb67d883c12ce39\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\44dbc55cd9105e99f4e5ec07bd2c7775\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\44dbc55cd9105e99f4e5ec07bd2c7775\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\5a7af9765962e2cea9eb838b3191703c\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\5a7af9765962e2cea9eb838b3191703c\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\7c0719a175aff6fade73b8ed327ad5ed\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\7c0719a175aff6fade73b8ed327ad5ed\AndroidManifest.xml:25:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\887d4282e76b23498c29efd01f9f7a47\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\887d4282e76b23498c29efd01f9f7a47\AndroidManifest.xml:11:5-20
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\47ec95b1097d761199f52a973b82b571\AndroidManifest.xml:2:3-17
+MERGED from [org.webkit:android-jsc:r174650] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-jsc-r174650.aar\47ec95b1097d761199f52a973b82b571\AndroidManifest.xml:2:3-17
+	android:label
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:9:7-39
+	android:icon
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:10:7-41
+	android:allowBackup
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:11:7-34
+	android:theme
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:12:7-38
+	android:name
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:8:7-38
+activity#com.mapssample.MainActivity
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:13:7-22:18
+	android:label
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:15:9-41
+	android:windowSoftInputMode
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:17:9-51
+	android:configChanges
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:16:9-79
+	android:name
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:14:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:18:9-21:25
+action#android.intent.action.MAIN
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:19:13-65
+	android:name
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:19:21-62
+category#android.intent.category.LAUNCHER
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:20:13-73
+	android:name
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:20:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:23:7-84
+	android:name
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:23:17-81
+uses-sdk
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-maps] C:\dev\repo\mobile\entrega\A8\MapsSample\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] C:\dev\repo\mobile\entrega\A8\MapsSample\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.57.3] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\react-native-0.57.3.aar\2b8ef629885fc8c327b0928ee2b8a811\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.57.3] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\react-native-0.57.3.aar\2b8ef629885fc8c327b0928ee2b8a811\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\59e99e7afc8b7c0bac98efc71ef09a2c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\59e99e7afc8b7c0bac98efc71ef09a2c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:17:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\2aa05c63a1e83ba2cbb67d883c12ce39\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\2aa05c63a1e83ba2cbb67d883c12ce39\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3c15aa70cbf23c8be45d53e5d0553893\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\3c15aa70cbf23c8be45d53e5d0553893\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ec54e62299ac6b3a135821bb553b0a7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\ec54e62299ac6b3a135821bb553b0a7f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\761215f872469868ddd4e3635bc86026\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\761215f872469868ddd4e3635bc86026\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\79dc762db551f6df6fa4b28c0fdee523\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\79dc762db551f6df6fa4b28c0fdee523\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\070c1b20e7991d10254b190fbae0f7d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\070c1b20e7991d10254b190fbae0f7d0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4a195da965690c9f1a216f4a9f9a7b19\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4a195da965690c9f1a216f4a9f9a7b19\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\44dbc55cd9105e99f4e5ec07bd2c7775\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-tasks-10.2.4.aar\44dbc55cd9105e99f4e5ec07bd2c7775\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\5a7af9765962e2cea9eb838b3191703c\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\5a7af9765962e2cea9eb838b3191703c\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\7c0719a175aff6fade73b8ed327ad5ed\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\7c0719a175aff6fade73b8ed327ad5ed\AndroidManifest.xml:21:5-23:54
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\3fd8047a667ae91a60b10eed8a65d85b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\fresco-1.10.0.aar\3fd8047a667ae91a60b10eed8a65d85b\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\deff7e27d1b6281528349de2a620d274\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\deff7e27d1b6281528349de2a620d274\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\1cf3b97174218cdf62c93d676e1e5e4e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\drawee-1.10.0.aar\1cf3b97174218cdf62c93d676e1e5e4e\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\de3f2ace2805d3ec204b5cf3c8105db8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-1.10.0.aar\de3f2ace2805d3ec204b5cf3c8105db8\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\fd9dd6b5c6b44589df3365797be8255d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\imagepipeline-base-1.10.0.aar\fd9dd6b5c6b44589df3365797be8255d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\887d4282e76b23498c29efd01f9f7a47\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.5.1] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\soloader-0.5.1.aar\887d4282e76b23498c29efd01f9f7a47\AndroidManifest.xml:7:5-9:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1e7950be48dde02c5379f13bd38d2e75\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\1e7950be48dde02c5379f13bd38d2e75\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c29802de241ca5a0bdf053a3fff884fc\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\c29802de241ca5a0bdf053a3fff884fc\AndroidManifest.xml:20:5-44
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b31a15974acd16fa8f1288299567602c\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\fbcore-1.10.0.aar\b31a15974acd16fa8f1288299567602c\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\96831288a1839d82da6216f904adee54\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\96831288a1839d82da6216f904adee54\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2fe3fc56caea55c7ded557ffb64718b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\a2fe3fc56caea55c7ded557ffb64718b\AndroidManifest.xml:20:5-44
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:support-v4:24.0.0] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\support-v4-24.0.0.aar\7c0719a175aff6fade73b8ed327ad5ed\AndroidManifest.xml:23:9-51
+	android:targetSdkVersion
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+		ADDED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] C:\dev\repo\mobile\entrega\A8\MapsSample\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] C:\dev\repo\mobile\entrega\A8\MapsSample\node_modules\react-native-maps\lib\android\build\intermediates\manifests\full\debug\AndroidManifest.xml:10:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:19:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-maps-10.2.4.aar\e9d3f717591fa40611495ba1372df339\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-base-10.2.4.aar\9672174913e830d11dc5f8c6b4935d06\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\2aa05c63a1e83ba2cbb67d883c12ce39\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\5a7af9765962e2cea9eb838b3191703c\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\play-services-basement-10.2.4.aar\5a7af9765962e2cea9eb838b3191703c\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\2aa05c63a1e83ba2cbb67d883c12ce39\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\Michel Tank\.gradle\caches\transforms-1\files-1.1\android-maps-utils-0.5.aar\2aa05c63a1e83ba2cbb67d883c12ce39\AndroidManifest.xml:9:13-58
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+IMPLIED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_PHONE_STATE
+IMPLIED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc has a targetSdkVersion < 4
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+IMPLIED from C:\dev\repo\mobile\entrega\A8\MapsSample\android\app\src\main\AndroidManifest.xml:1:1-26:12 reason: org.webkit.android_jsc requested WRITE_EXTERNAL_STORAGE
