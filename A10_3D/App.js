@@ -1,38 +1,36 @@
-import Expo from "expo";
-import React from "react";
-import { StyleSheet, Text, View, Animated, PanResponder } from "react-native";
+import Expo from "expo"
+import React from "react"
+import { StyleSheet, Text, View, Animated, PanResponder } from "react-native"
 
-import * as THREE from "three";
-import ExpoTHREE from "expo-three";
-import { Accelerometer } from 'expo';
+import * as THREE from "three"
+import ExpoTHREE from "expo-three"
+import { Accelerometer } from 'expo'
 
 export default class App extends React.Component {
   constructor(props) {
-    super(props);
+    super(props)
 
     this.state = {
       pan: new Animated.ValueXY(),
       accelerometerData: {},
-      accelerometerDataBefore: {},
-    };
+    }
   }
 
   _subscribe = () => {
     this._subscription = Accelerometer.addListener(accelerometerData => {
-      // console.log('setting accelerometerData')
-      // console.log(accelerometerData)
-      this.setState({accelerometerDataBefore: this.state.accelerometerData})
-      this.setState({ accelerometerData });
-    });
+      this.setState({ accelerometerData })
+      // let { x, y, z } = this.state.accelerometerData
+      // console.log(x)
+    })
   }
 
   componentDidMount() {
-    this._subscribe();
+    this._subscribe()
   }
 
   componentWillMount() {
-    this._val = { x: 0, y: 0 };
-    this.state.pan.addListener(value => (this._val = value));
+    this._val = { x: 0, y: 0 }
+    this.state.pan.addListener(value => (this._val = value))
 
     this.panResponder = PanResponder.create({
       onStartShouldSetPanResponder: (e, gesture) => true,
@@ -40,20 +38,20 @@ export default class App extends React.Component {
         this.state.pan.setOffset({
           x: this._val.x,
           y: this._val.y
-        });
-        this.state.pan.setValue({ x: 0, y: 0 });
+        })
+        this.state.pan.setValue({ x: 0, y: 0 })
       },
       onPanResponderMove: Animated.event([
         null,
         { dx: this.state.pan.x, dy: this.state.pan.y }
       ])
-    });
+    })
   }
 
   render() {    
     const panStyle = {
       transform: this.state.pan.getTranslateTransform()
-    };
+    }
     return (
       <View
         style={{
@@ -73,15 +71,15 @@ export default class App extends React.Component {
           />
         </Animated.View>
       </View>
-    );
+    )
   }
 
   _onGLContextCreate = async gl => {
 
-    const scene = new THREE.Scene();
+    const scene = new THREE.Scene()
 
-    const light = new THREE.PointLight( 0xff0000, 1, 100 );
-    light.position.set( 50, 50, 50 );		
+    const light = new THREE.PointLight( 0xff0000, 1, 100 )
+    light.position.set( 50, 50, 50 )		
     scene.add(light)
 
     const camera = new THREE.PerspectiveCamera(
@@ -89,58 +87,36 @@ export default class App extends React.Component {
       gl.drawingBufferWidth / gl.drawingBufferHeight,
       0.1,
       1000
-    );
+    )
 
-    const renderer = ExpoTHREE.createRenderer({ gl });
-    renderer.setSize(gl.drawingBufferWidth, gl.drawingBufferHeight);
+    const renderer = ExpoTHREE.createRenderer({ gl })
+    renderer.setSize(gl.drawingBufferWidth, gl.drawingBufferHeight)
 
-    const geometry = new THREE.BoxGeometry( 1, 1, 1 );
+    const geometry = new THREE.BoxGeometry( 1, 1, 1 )
     const material = new THREE.MeshBasicMaterial({
       color: 0xafeeee,
       map: await ExpoTHREE.createTextureAsync({
         asset: Expo.Asset.fromModule(require("./img/panorama.png"))
       })
-    });
-    const sphere = new THREE.Mesh(geometry, material);
-    sphere.castShadow = true;
+    })
+    const sphere = new THREE.Mesh(geometry, material)
+    sphere.castShadow = true
     
-    scene.add(sphere);
-
-    let { x, y, z } = this.state.accelerometerData;
+    scene.add(sphere)
     
-    var ax = this.state.accelerometerDataBefore.x - this.state.accelerometerData.x;
-    var ay = this.state.accelerometerDataBefore.y - this.state.accelerometerData.y;
-    var az = Math.round(z * 10) / 10;
-
-    camera.position.z = 2;
+    camera.position.z = 2
 
     const render = () => {
-      requestAnimationFrame(render);
+      requestAnimationFrame(render)
+      let { y, x } = this.state.accelerometerData
 
-      // console.log(ay)
-      // console.log(z)
+      sphere.rotation.y = x * -1
+      sphere.rotation.x = y 
 
-      if(ay > 0) {
-        sphere.rotation.y += ay * 10
-      }
-      
-      if(ax > 0) {
-        console.log(ax)
-        sphere.rotation.x += ax * 15;
-      } else if(ax < 0) {
-        console.log(ax)
-        sphere.rotation.x -= ax * 15;
-      }
-      // if(az > 0) {
-      //   sphere.rotation.z -= 0.025;
-      // } else if(z < 0) {
-      //   sphere.rotation.z += 0.025;
-      // }
+      renderer.render(scene, camera)
 
-      renderer.render(scene, camera);
-
-      gl.endFrameEXP();
-    };
-    render();
-  };
+      gl.endFrameEXP()
+    }
+    render()
+  }
 }
